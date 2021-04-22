@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+.gallery {
+	border:1px solid #ccc;
+	border-radius:10px;
+}
+.gallery img {
+	width:100%;
+	height:auto;
+	background: lightblue;
+}
+.des {
+	padding:15px;
+	text-align:center;
+}
+.responsive {
+	padding:0 6px;
+	float:left;
+	width:20%;
+	padding:20px;
+}
+@media only screen and (max-width:768px) {
+	.responsive {
+		width:30%;
+		margin:6px 0;
+		
+	}
+}
+@media only screen and (max-width:425px) {
+	.responsive {
+		width:100%;
+		margin:6px 0;
+		
+	}
+}
+
+#text {
+	height: 325px;
+	width: 100%;
+	font-size: 19px;
+}
